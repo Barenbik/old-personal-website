@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #E1DFDB;
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-list-item {
+    display: inline;
+}
+
+.navbar-list-item:not(:last-child) {
+    padding-right: 1rem;
+}
+
+.title {
+    color: #FF0878;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 461px) {
+    .navbar {
+        justify-content: space-between;
+    }
+}
