@@ -12,6 +12,10 @@ section {
     padding: 1rem;
 }
 
+footer {
+    text-align: center;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -72,6 +76,20 @@ section {
 
 .box > p {
     margin: 0;
+}
+
+.social-links img {
+    height: auto;
+    width: 40px;
+    padding-bottom: 0.625rem;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li:not(:last-child) {
+    padding-right: 1rem;
 }
 
 @media (min-width: 508px) {
