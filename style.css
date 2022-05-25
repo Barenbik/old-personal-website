@@ -2,10 +2,19 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     margin: 0;
+    background-color: #d8eefe;
 }
 
 section {
     padding: 1rem;
+}
+
+h2 {
+    color: #094067;
+}
+
+p {
+    color: #5f6c7b;
 }
 
 footer {
@@ -17,7 +26,7 @@ footer {
 }
 
 .title {
-    color: #FF0878;
+    color: #ef4565;
     text-transform: uppercase;
     font-size: 1.25rem;
     padding-top: 0;
@@ -38,7 +47,6 @@ footer {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    padding-top: 1.25rem;
 }
 
 .box {
@@ -46,16 +54,19 @@ footer {
     border-radius: 5px;
     height: 200px;
     padding: 1.25rem;
+    background-color: #fffffe;
 }
 
 .box>p {
     margin: 0;
 }
 
-.social-links img {
-    height: auto;
-    width: 40px;
-    padding-bottom: 0.625rem;
+.social-links {
+    padding: 0.75rem;
+}
+
+.social-links a {
+    text-decoration: none;
 }
 
 .social-links li {
@@ -64,6 +75,12 @@ footer {
 
 .social-links li:not(:last-child) {
     padding-right: 1rem;
+}
+
+.social-icon {
+    filter: invert(7%) sepia(93%) saturate(5591%) hue-rotate(194deg) brightness(103%) contrast(93%);
+    height: auto;
+    width: 40px;
 }
 
 @media (min-width: 575px) {
