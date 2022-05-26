@@ -21,6 +21,10 @@ footer {
     text-align: center;
 }
 
+.section-wrapper {
+    max-width: 90%;
+}
+
 .white-background {
     background-color: #fffffe;
 }
@@ -142,11 +146,11 @@ footer {
     }
 
     .section-wrapper {
-        width: 90%;
+        max-width: 80%;
     }
 
     .section-content {
-        grid-template-columns: auto 60%;
+        grid-template-columns: auto 50%;
     }
 
     .projects {
