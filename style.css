@@ -133,6 +133,18 @@ footer {
     width: 40px;
 }
 
+.fade-element {
+    transition: opacity 0.5s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
 @media (min-width: 575px) {
     .title {
         padding-bottom: 0;
