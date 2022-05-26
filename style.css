@@ -38,6 +38,10 @@ footer {
     flex-grow: 0;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .title {
     color: #ef4565;
     text-transform: uppercase;
@@ -48,7 +52,7 @@ footer {
 
 .section-wrapper {
     padding: 1rem;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -135,7 +139,10 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         margin: auto;
-        /* max-width: 80%; */
+    }
+
+    .section-wrapper {
+        width: 90%;
     }
 
     .section-content {
