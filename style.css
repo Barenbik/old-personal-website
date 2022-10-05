@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     margin: 0;
+    background-color: #16161a;
 }
 
 section {
@@ -45,6 +46,8 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #16161a;
+    width: 90%;
+    margin: auto;
 }
 
 .navbar-collapse {
@@ -164,6 +167,8 @@ footer {
     color: #fffffe;
 }
 
+
+
 @media (min-width: 575px) {
     .title {
         padding-bottom: 0;
@@ -176,7 +181,8 @@ footer {
         margin: auto;
     }
 
-    .section-wrapper {
+    .section-wrapper,
+    .container-fluid {
         max-width: 70%;
     }
 
@@ -186,5 +192,9 @@ footer {
 
     .projects {
         display: inline;
+    }
+
+    .navbar {
+        width: auto;
     }
 }
