@@ -46,9 +46,12 @@ footer {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #16161a;
-    width: 90%;
     margin: auto;
+    position: fixed;
+    width: 100%;
 }
+
+
 
 .navbar-collapse {
     flex-grow: 0;
@@ -56,6 +59,7 @@ footer {
 
 .container-fluid {
     padding: 0;
+    max-width: 90%;
 }
 
 .title {
@@ -69,6 +73,10 @@ footer {
     padding: 1rem;
     width: 90%;
     margin: auto;
+}
+
+.about-section {
+    margin-top: 2rem;
 }
 
 .content-image {
@@ -86,6 +94,7 @@ footer {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding-top: 1rem;
 }
 
 .box {
@@ -187,14 +196,10 @@ footer {
     }
 
     .section-content {
-        grid-template-columns: auto 50%;
+        grid-template-columns: auto 40%;
     }
 
     .projects {
         display: inline;
-    }
-
-    .navbar {
-        width: auto;
     }
 }
