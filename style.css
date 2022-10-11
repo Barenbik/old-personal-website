@@ -2,23 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     margin: 0;
-    background-color: #16161a;
 }
 
 section {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-}
-
-h2, 
-.nav-item > a,
-.title {
-    color: #fffffe;
-}
-
-.nav-link:hover,
-.title:hover {
-    color: #7f5af0;
 }
 
 p {
@@ -27,31 +15,19 @@ p {
 
 footer {
     text-align: center;
-    background-color: #16161a;
 }
 
 .section-wrapper {
     max-width: 90%;
 }
 
-.main-background {
-    background-color: #16161a;
-}
-
-.alternative-background {
-    background-color: #242629;
-}
-
 .navbar {
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: #16161a;
     margin: auto;
     position: fixed;
     width: 100%;
 }
-
-
 
 .navbar-collapse {
     flex-grow: 0;
@@ -106,30 +82,6 @@ footer {
     margin-right: 0;
 }
 
-.main-background .box {
-    background-color: #242629;
-}
-
-.main-background .box > h3 {
-    color: #fffffe;
-}
-
-.main-background .box > p {
-    color: #94a1b2;
-}
-
-.alternative-background .box {
-    background-color: #16161a;
-}
-
-.alternative-background .box > h3 {
-    color: #fffffe;
-}
-
-.alternative-background .box > p {
-    color: #94a1b2;
-}
-
 .social-links {
     padding: 0.75rem;
 }
@@ -170,13 +122,71 @@ footer {
     margin-bottom: 0.6rem;
     padding: 5px 10px;
     border-radius: 3px;
-    background-color: #7f5af0;
     font-size: 14px;
     font-weight: 700;
+}
+
+/* Dark Mode Rules */
+
+.tag-dark {
+    background-color: #7f5af0;
     color: #fffffe;
 }
 
+.h2-dark,
+.nav-item-dark>a,
+.title-dark {
+    color: #fffffe;
+}
 
+.body-dark {
+    background-color: #16161a;
+}
+
+.footer-dark {
+    background-color: #16161a;
+}
+
+.nav-link-dark:hover,
+.title-dark:hover {
+    color: #7f5af0;
+}
+
+.main-background-dark {
+    background-color: #16161a;
+}
+
+.alternative-background-dark {
+    background-color: #242629;
+}
+
+.navbar-dark {
+    background-color: #16161a;
+}
+
+.main-background-dark .box {
+    background-color: #242629;
+}
+
+.main-background-dark .box>h3 {
+    color: #fffffe;
+}
+
+.main-background-dark .box>p {
+    color: #94a1b2;
+}
+
+.alternative-background-dark .box {
+    background-color: #16161a;
+}
+
+.alternative-background-dark .box>h3 {
+    color: #fffffe;
+}
+
+.alternative-background-dark .box>p {
+    color: #94a1b2;
+}
 
 @media (min-width: 575px) {
     .title {

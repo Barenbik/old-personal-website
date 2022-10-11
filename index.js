@@ -16,3 +16,7 @@ const observer = new IntersectionObserver(observerCallback, observerOptions);
 const fadeElements = document.querySelectorAll('.fade-element');
 
 fadeElements.forEach((el) => observer.observe(el));
+
+function toggleDarkMode() {
+  console.log("Dark mode toggled")
+}

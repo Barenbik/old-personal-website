@@ -16,28 +16,32 @@
   <link rel="stylesheet" href="dist/hamburgers.css">
 </head>
 
-<body>
+<body class="body-dark">
   <header>
     <nav class="navbar navbar-expand-sm navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand title" href="#">Tony Sharples</a>
+        <a class="navbar-brand title title-dark" href="#">Tony Sharples</a>
+        <div class="form-check form-switch title-dark">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onchange="toggleDarkMode()">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Toggle Dark Mode</label>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+            <li class="nav-item-dark">
+              <a class="nav-link nav-link-dark" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-section">About</a>
+            <li class="nav-item-dark">
+              <a class="nav-link nav-link-dark" href="#about-section">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#previous-projects-section">Projects</a>
+            <li class="nav-item-dark">
+              <a class="nav-link nav-link-dark" href="#previous-projects-section">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-section">Contact</a>
+            <li class="nav-item-dark">
+              <a class="nav-link nav-link-dark" href="#contact-section">Contact</a>
             </li>
           </ul>
         </div>
@@ -45,9 +49,9 @@
     </nav>
   </header>
   <div class="content-wrapper">
-    <section id="about-section" class="main-background">
+    <section id="about-section" class="main-background-dark">
       <div class="section-wrapper about-section">
-        <h2 id="about" class="fade-element fade-out">About Me</h2>
+        <h2 id="about" class="fade-element fade-out h2-dark">About Me</h2>
         <hr>
         <div class="section-content fade-element fade-out">
           <div>
@@ -66,9 +70,9 @@
         </div>
       </div>
     </section>
-    <section id="about-section" class="alternative-background">
+    <section id="about-section" class="alternative-background-dark">
       <div class="section-wrapper">
-        <h2 id="about" class="fade-element fade-out">Work History</h2>
+        <h2 id="about" class="fade-element fade-out h2-dark">Work History</h2>
         <hr>
         <div class="fade-element fade-out">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro illo laudantium! Sed ducimus
@@ -82,9 +86,9 @@
         </div>
       </div>
     </section>
-    <section id="previous-projects-section" class="main-background">
+    <section id="previous-projects-section" class="main-background-dark">
       <div class="section-wrapper">
-        <h2 id="projects" class="fade-element fade-out">Previous Projects</h2>
+        <h2 id="projects" class="fade-element fade-out h2-dark">Previous Projects</h2>
         <hr>
         <div class="section-content projects">
           <div class="fade-element fade-out">
@@ -99,32 +103,32 @@
           </div>
           <div class="grid-wrapper">
             <div class="box fade-element fade-out">
-              <h3>Project Heading</h2>
+              <h3>Project Heading</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum atque dolore rerum,
                   praesentium</p>
-                  <div class="tag">C#</div>
-                  <div class="tag">API</div>
+                  <div class="tag tag-dark">C#</div>
+                  <div class="tag tag-dark">API</div>
             </div>
             <div class="box fade-element fade-out">
-              <h3>Project Heading</h2>
+              <h3>Project Heading</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ducimus error ullam quidem reiciendis
                   aliquam</p>
-                  <div class="tag">Payment Gateway</div>
+                  <div class="tag tag-dark">Payment Gateway</div>
             </div>
             <div class="box fade-element fade-out">
-              <h3>Project Heading</h2>
+              <h3>Project Heading</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsum atque dolore rerum,
                   praesentium</p>
-                  <div class="tag">C#</div>
-                  <div class="tag">API</div>
+                  <div class="tag tag-dark">C#</div>
+                  <div class="tag tag-dark">API</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="active-projects-section" class="alternative-background">
+    <section id="active-projects-section" class="alternative-background-dark">
       <div class="section-wrapper">
-        <h2 id="projects" class="fade-element fade-out">Active Projects</h2>
+        <h2 id="projects" class="fade-element fade-out h2-dark">Active Projects</h2>
         <hr>
         <div class="section-content projects">
           <div class="fade-element fade-out">
@@ -139,24 +143,24 @@
           </div>
           <div class="grid-wrapper">
             <div class="box fade-element fade-out">
-              <h3>Project Heading</h2>
+              <h3>Project Heading</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus. Nesciunt perferendis enim
                   doloribus</p>
-                  <div class="tag">SwiftUI</div>
+                  <div class="tag tag-dark">SwiftUI</div>
             </div>
             <div class="box fade-element fade-out">
-              <h3>Project Heading</h2>
+              <h3>Project Heading</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quisquam. Sapiente sequi odit
                   deserunt facere?</p>
-                  <div class="tag">React</div>
+                  <div class="tag tag-dark">React</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="contact-section" class="main-background">
+    <section id="contact-section" class="main-background-dark">
       <div class="section-wrapper">
-        <h2 id="projects" class="fade-element fade-out">Contact Me</h2>
+        <h2 id="projects" class="fade-element fade-out h2-dark">Contact Me</h2>
         <hr>
         <div class="section-content projects">
           <div class="fade-element fade-out">
@@ -173,7 +177,7 @@
       </div>
     </section>
   </div>
-  <footer>
+  <footer class="footer-dark">
     <div id="contact" class="social-links">
       <ul>
         <li>
